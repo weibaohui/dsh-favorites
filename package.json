@@ -1,6 +1,6 @@
 {
   "name": "@weibaohui/dsh-favorites",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "dsh 插件 · 会话收藏夹：左侧会话行收藏/星标，收藏夹主面板支持文件夹分门别类、备注、自定义显示名、继续会话、Fork 新会话、会话基本统计与 fork 关系图。",
   "license": "MIT",
   "keywords": [
