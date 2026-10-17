@@ -1,0 +1,12 @@
+# dsh-favorites bundle patch: contributes the plugin row into the
+# host composition when this package is installed via `dsh plugin add`.
+#
+# The plugin is HOST-PLANE: it stores favorites in the storageDomain
+# (`dsh_favorites`) and serves its HTTP API over a webServer route; its
+# client half registers session-row actions and the favorites main panel.
+# It must therefore land in the host composition (this insert), never
+# inside an agent preset.
+
+- insert:
+    - id: dsh-favorites
+      name: '@weibaohui/dsh-favorites'
